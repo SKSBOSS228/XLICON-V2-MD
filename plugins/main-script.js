@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/salmanytofficial/XLICON-V2-MD';
+  const githubRepoURL = 'https://github.com/Polayadi-MD';
 
   try {
   
@@ -19,7 +19,7 @@ let handler = async function (m, { conn, __dirname }) {
 ╭⭑⭑⭑★✪ *XLICON* ✪★⭑⭑⭑
 │ 📂 *BOT Name:* _${repoData.name}_
 │ 📝 *Description:* _${repoData.description}_
-│ 👤 *Owner:* _Salman Ahmad_
+│ 👤 *Owner:* _5Y4M_
 │ ⭐ *Stars:* _${repoData.stargazers_count}_
 │ 🍴 *Forks:* _${repoData.forks_count}_
 │ 🌐 *URL:* ${repoData.html_url}
