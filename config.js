@@ -6,17 +6,12 @@ import fetch from 'node-fetch'
 import axios from 'axios'
 
 global.owner = [
-  ['918360234087', 'WHITE', true], 
-  ['233208179431', 'Abraham Dwamena', true],
-  ['923184070915', '𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 -(𝘼𝙝𝙢𝙢𝙞)', true], 
-  ['94789481495', '𝙼𝚉𝙽 𝙺𝙸𝙽𝙶 ⚡', true],
-  ['233533763772', 'Abraham Dwamena2', true],
-  ['233508488192', 'Abraham Dwamena3', true]
+  ['919888280858', '5Y4M', true]
 ] //Number of owners
 
-global.mods = ['923184070915', '94789481495', '923184474176', '233531910067', '233508488192'] 
-global.prems = ['923184070915', '233208179431', '94789481495', '918360234087', '233508488192']
-global.allowed = ['923184070915', '233208179431', '94789481495', '918360234087', '233508488192']
+global.mods = ['923184070915', '919888280857', '918921602850', '233531910067', '233508488192'] 
+global.prems = ['923184070915', '233208179431', '919888280858', '918360234087', '233508488192']
+global.allowed = ['923184070915', '233208179431', '918921602850', '919888280858', '233508488192']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = global.keysZens[Math.floor(global.keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -50,20 +45,20 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.botname = 'XLICON-V2'
+global.botname = 'POLAYADI-MD😊'
 global.premium = 'true'
-global.packname = 'XLICON TEAM' 
-global.author = '@XLICON-V2' 
-global.menuvid = 'https://telegra.ph/file/325630f66abc968eda8e2.mp4'
-global.igfg = '▢✓ Follow My channel\nhttps://whatsapp.com/channel/0029VaE8GbCDzgTILE7OtC3e\n' 
-global.dygp = 'https://chat.whatsapp.com/BfH0KLkICn2BjmGFMRcGMW'
-global.fgsc = 'https://github.com/salmanytofficial/XLICON-V2-MD' 
+global.packname = 'POLAYADI-MD' 
+global.author = 'SURA-MD' 
+global.menuvid = 'https://telegra.ph/file/3fed482c272591b520fb5.jpg'
+global.igfg = '▢✓ Follow My channel\nhttps://chat.whatsapp.com/DAMuVjxVMplGoEpaTyINMa\n' 
+global.dygp = 'https://chat.whatsapp.com/DAMuVjxVMplGoEpaTyINMa'
+global.fgsc = 'https://chat.whatsapp.com/DAMuVjxVMplGoEpaTyINMa' 
 global.fgyt = 'https://youtube.com/@s4salmanyt'
 global.fgpyp = 'https://youtube.com/@s4salmanyt'
 global.fglog = 'XLICON.jpg' 
 global.thumb = fs.readFileSync('./XLICON.jpg')
 
-global.wait = '*🕣 _XLICON IS LOADING..._*\n*▰▰▰▱▱▱▱▱⭐*'
+global.wait = '*🕣 _POLAYADI IS LOADING..._*\n*▰▰▰▱▱▱▱▱⭐*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✔️'
