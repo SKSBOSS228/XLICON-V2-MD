@@ -15,37 +15,16 @@ import {
  
  const defaultMenu = {
   before: `
-  「 ${botname} 🎁XMD 」\n
+  「 ${botname} MD 」\n
   *%ucpn*
 ⍟────────────────⍟
-*REMEMBER THIS BOT IS FOR*
-*EDUCATIONAL PERPOSES*
-⍟────────────────⍟
-*©Salman Ahmand*
-⍟────────────────⍟
-*_Konnichiwa! Its XLICON-MD A_* 
-*_Multi-Device Whatsapp BOT_*
-*_Recoded By Salman Ahmad And Abraham Dwamena_*
-⍟────────────────⍟
-                                    
- ▀▄▀ █░░ █ █▀▀ █▀█ █▄░█  
- █░█ █▄▄ █ █▄▄ █▄█ █░▀█  
-          
- █▀▄▀█ █▀▄
- █░▀░█ █▄▀
- 
+> നിൻ്റെയൊക്കെ സമയം ആയി വരുന്നെ ഉള്ളൂട
+> കള്ള കടയാടി മോനേ
 ╭─────────────────⦿
 ┃    🔰〘 𝙄𝙉𝙁𝙊 〙🔰
-╰┬────────────────⦿
-┌┤
-┃
-┃ *_Founder_*: Salman Ahmad 
+╰┬───────────
 ┃ *_Bot Name_*: ${botname}
 ┃ *_Mode_*: %mode
-┃ *_HOST_*: kali Linix
-┃ *_Type_*: NodeJs
-┃ *_Baileys_*: Multi Device
-┃ *_Prefix_*: [ *%_p* ]
 ┃ *_Uptime_*: %muptime
 ┃ *_Database_*:  %totalreg
 ┃
@@ -57,7 +36,7 @@ import {
 ┃
 ┃ *_Name_*: %name
 ┃ *_Gold_*: %credit
-┃ *_Role_*: XLICON-MD-TESTER
+┃ *_Role_*: POLAYDI-MD-TESTER
 ┃ *_Level_*: %level [ %xp4levelup Xp For Levelup]
 ┃ *_Xp_*: %exp / %maxexp
 ┃ *_Total Xp_*: %totalexp
@@ -256,7 +235,7 @@ import {
   const time = moment.tz("Asia/Kolkata").format("HH")
   let res = "Good morning ☀️"
   if (time >= 4) {
-   res = "Good Morning 🌄"
+   res = "സുഗ നിദ്ര 🌄"
   }
   if (time >= 10) {
    res = "Good Afternoon ☀️"
@@ -265,7 +244,7 @@ import {
    res = "Good Afternoon 🌇"
   }
   if (time >= 18) {
-   res = "Good Night 🌙"
+   res = "സുഗ നിദ്ര🌙"
   }
   return res
  }
